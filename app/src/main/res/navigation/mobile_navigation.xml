@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gndu.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="sem"
+            app:argType="string"
+            android:defaultValue="6th" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_examination"
+        android:name="com.example.gndu.ui.examination"
+        android:label="Examination"
+        tools:layout="@layout/examination_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Result"
+        android:name="com.example.gndu.result"
+        android:label="Result Section"
+        tools:layout="@layout/result_fragment" />
+    <fragment
+        android:id="@+id/nav_Syllabus"
+        android:name="com.example.gndu.Syllabus"
+        android:label="Syllabus"
+        tools:layout="@layout/syllabus_fragment" />
+    <fragment
+        android:id="@+id/nav_studentForm"
+        android:name="com.example.gndu.studentForm"
+        android:label="Student Forms"
+        tools:layout="@layout/student_form_fragment" />
+    <fragment
+        android:id="@+id/nav_placementForms"
+        android:name="com.example.gndu.placement"
+        android:label="Placement Forms"
+        tools:layout="@layout/placement_fragment" />
+    <fragment
+        android:id="@+id/nav_feesSection"
+        android:name="com.example.gndu.fees"
+        android:label="@string/fees_section"
+        tools:layout="@layout/fees_fragment" />
+
+    <!--<fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.gndu.change_account_setting"
+        android:label="Fee Section"
+        tools:layout="@layout/activity_change_account_setting" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.gndu.ui.examination"
+        android:label="Fee Section"
+        tools:layout="@layout/examination_fragment" />
+-->
+</navigation>

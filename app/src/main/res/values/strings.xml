@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GNDU</string>
+    <string name="startingLogo">Guru Nanak dev University</string>
+    <string name="logo">logo</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="scrollView">signupScrollview</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">njIhIgrpnMPSOSHkA7t3pniksJczzR7j8jzCamXR</string>
+    <string name="back4app_client_key">zZcPIvSBs2e8WP8Acvbl1A8S7AJRS8rfIBb5QDDc</string>
+    <string name="result_section">Result Section</string>
+    <string name="examination">Examination</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="Student_forms">Student Forms</string>
+    <string name="placement_forms">Placement Forms</string>
+    <string name="fees_section">Fees Section</string>
+    <string name="selectImage">select image</string>
+    <string name="backToHome">back to home</string>
+    <string name="settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="help">Help</string>
+    <string name="examination_data">Examination_data</string>
+    <string name="todo">TODO</string>
+    <string-array name="semester_spinner">
+        <item>Select Semester</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+    </string-array>
+    <string-array name="section_spinner">
+        <item>Select Section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string name="title_activity_recuiters">Recuiters</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="GNDU">AndroidNotification</string>
+    <string name="notification_activity">NotificationView</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835420158628",
+    "project_id": "gndu-7d698",
+    "storage_bucket": "gndu-7d698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835420158628:android:b515ac019b550dd177c431",
+        "android_client_info": {
+          "package_name": "com.example.gndu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835420158628-029uqkd53sr3dn350o94q3f79tn42ile.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhjH1KuAJteMM1pl4HqqvEtnQQsxAULeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835420158628-029uqkd53sr3dn350o94q3f79tn42ile.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

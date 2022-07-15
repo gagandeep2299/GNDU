@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <item
+        android:id="@+id/submenu_1"
+        android:title="">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_examination"
+            android:icon="@drawable/ic_baseline_pending_actions_24"
+            android:title="@string/examination" />
+        <item
+            android:id="@+id/nav_Result"
+            android:icon="@drawable/ic_baseline_assessment_24"
+            android:title="@string/result_section" />
+        <item
+            android:id="@+id/nav_Syllabus"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/syllabus" />
+        <item
+            android:id="@+id/nav_studentForm"
+            android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+            android:title="@string/Student_forms" />
+        <item
+            android:id="@+id/nav_placementForms"
+            android:icon="@drawable/ic_baseline_business_center_24"
+            android:title="@string/placement_forms" />
+        <item
+            android:id="@+id/nav_feesSection"
+            android:icon="@drawable/ic_baseline_paid_24"
+            android:title="@string/fees_section"
+            />
+    </group>
+        </menu>
+    </item>
+
+</menu>
+
